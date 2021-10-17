@@ -3,7 +3,7 @@ import * as chai from 'chai';
 let assert = chai.assert;
 let should = chai.should();
 let expect = chai.expect;
-import { updateArrayValueWithoutChangeIndex, deleteArrayValueIfExist } from "../modules/books/service.js";
+import { updateArrayValueWithoutChangeIndex, deleteArrayValueIfExist } from "../modules/books/books.service.js";
 
 describe('Books Controller', () => {
     describe('updateArrayValueWithoutChangeIndex()', () => {

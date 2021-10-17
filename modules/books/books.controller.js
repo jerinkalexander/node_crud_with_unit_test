@@ -1,4 +1,4 @@
-import { deleteArrayValueIfExist, updateArrayValueWithoutChangeIndex } from "../../modules/books/service.js";
+import { deleteArrayValueIfExist, updateArrayValueWithoutChangeIndex } from "../books/books.service.js";
 
 let books = [];
 
